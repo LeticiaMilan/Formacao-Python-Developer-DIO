@@ -1,6 +1,6 @@
 # Formação Python Developer - Digital Innovation One 🐍💻 
 
-## Detalhes da formação:
+## ✨ Detalhes da formação:
 
 Python é uma das linguagens de programação mais utilizadas no mercado nacional e internacional. Sendo uma das principais tecnologias de empresas como Globo, Instagram, Amazon e Google.
 
@@ -8,7 +8,7 @@ Com uma grande versatilidade, vasta documentação e inúmeras bibliotecas fazem
 
 Modele seu banco de dados com a ferramenta do Sqlalchemy e crie aplicações ainda mais ricas com persistência de dados com MongoDB utilizando a biblioteca do Pymongo.
 
-## Atividades:
+## ✨ Atividades:
 
 - Fundamentos de Python
 - Aprendendo Estruturas de Dados com Python
