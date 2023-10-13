@@ -1,5 +1,4 @@
-# Formacao-Python-Developer-DIO 🐍💻
-Formação Python Developer - Digital Innovation One 
+# Formação Python Developer - Digital Innovation One 🐍💻 
 
 ## Detalhes da formação:
 
