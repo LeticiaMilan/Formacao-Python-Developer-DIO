@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Dados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #b953d0;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Number</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+            <th>Country</th>
+        </tr>
+        <!-- Loop através dos índices da coluna 'Number' -->
+        {% for i in data.Number %}
+            <tr>
+                <!-- Usando o índice - 1 para acessar os elementos corretos nas listas -->
+                <td>{{ data.Number[i-1] }}</td>
+                <td>{{ data.Name[i-1] }}</td>
+                <td>{{ data.Age[i-1] }}</td>
+                <td>{{ data.City[i-1] }}</td>
+                <td>{{ data.Country[i-1] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
